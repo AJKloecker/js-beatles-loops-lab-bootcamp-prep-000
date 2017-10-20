@@ -22,6 +22,7 @@ function iLoveTheBeatles(n){
   var i = 0
   do{
     temp.push("I love the Beatles!")
+    ++i
   }while(i < n);
   return temp
 }
